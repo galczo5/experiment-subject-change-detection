@@ -11,7 +11,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   time = new Date().toISOString();
 
-  private readonly subject = new Subject();
   private subscription!: Subscription;
 
   ngOnInit(): void {
